@@ -10,12 +10,12 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('background.jpg');
+    background-image: url('sherlock.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     color: white;
-    font-family: 'Netflix Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Netflix Sans';
     text-align: center;
 }
 
