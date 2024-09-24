@@ -13,12 +13,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const now = new Date().getTime();
         const remainingTime = endDate - now;
 
-        //const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+        const days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
         const hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
         const minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
 
-        //daysElement.innerText = days;
+        daysElement.innerText = days;
         hoursElement.innerText = hours;
         minutesElement.innerText = minutes;
         secondsElement.innerText = seconds;
