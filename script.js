@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const secondsElement = document.getElementById("seconds");
 
     // Sayaç bitiş tarihini belirle
-    const endDate = new Date("2024-10-06T00:00:00").getTime();
+    const endDate = new Date("2024-10-01T00:00:00").getTime();
 
     // Geri sayım fonksiyonu
     const countdown = setInterval(() => {
